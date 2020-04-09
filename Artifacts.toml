@@ -1,113 +1,113 @@
 [[Libtiff]]
-arch = "aarch64"
-git-tree-sha1 = "ee6e372e9d072ac88f1fa90e47112eccf9f6c915"
-libc = "glibc"
-os = "linux"
-
-    [[Libtiff.download]]
-    sha256 = "4840f95acdc4cad729a50109824161e3bb5b1f8d91bf684b30da30c7eb50e8f2"
-    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+0/Libtiff.v4.0.10.aarch64-linux-gnu.tar.gz"
-[[Libtiff]]
-arch = "x86_64"
-git-tree-sha1 = "4e89cb04a1fb00da4c52d74d05a7ac84f03b420d"
-libc = "glibc"
-os = "linux"
-
-    [[Libtiff.download]]
-    sha256 = "558e2d67fbf6fbee9c0c34093bb89792233bcc734e867479d6d9b27876c64050"
-    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+0/Libtiff.v4.0.10.x86_64-linux-gnu.tar.gz"
-[[Libtiff]]
-arch = "armv7l"
-git-tree-sha1 = "6086be112c1ffd85c93c0303386dae77670a6075"
+arch = "i686"
+git-tree-sha1 = "f0546d5603f6d78c6f5e1d65c6c352f70f549cfb"
 libc = "musl"
 os = "linux"
 
     [[Libtiff.download]]
-    sha256 = "9e836c5cacdc6740486def0ae9182513a3c42ba6166f2bab406a808cb9bb754c"
-    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+0/Libtiff.v4.0.10.arm-linux-musleabihf.tar.gz"
+    sha256 = "74eaab3d302280ecfde4ff4781fea9e57c88adc88d6042fa6247a5c92d63874f"
+    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+1/Libtiff.v4.0.10.i686-linux-musl.tar.gz"
+[[Libtiff]]
+arch = "aarch64"
+git-tree-sha1 = "6f80de9a896ff4f37883268bb33deb44c263e28f"
+libc = "musl"
+os = "linux"
+
+    [[Libtiff.download]]
+    sha256 = "3711d7f3384c4628932a1b03a1f974532845a384dd5e889ab9de589858ccc145"
+    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+1/Libtiff.v4.0.10.aarch64-linux-musl.tar.gz"
+[[Libtiff]]
+arch = "i686"
+git-tree-sha1 = "546bb842555435c47199872e0f978647170238dc"
+os = "windows"
+
+    [[Libtiff.download]]
+    sha256 = "9f8e15c051f1c6e213d6fa2fd84406d60049119cc827cc94b86053d1adf94a9a"
+    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+1/Libtiff.v4.0.10.i686-w64-mingw32.tar.gz"
+[[Libtiff]]
+arch = "x86_64"
+git-tree-sha1 = "f98adb5b4de5c29a8d77def412b792beaec6180b"
+os = "windows"
+
+    [[Libtiff.download]]
+    sha256 = "e2692adb55ace1674b002c3a585f8887f689188eae0c2b358cd8ab0bf0e823e9"
+    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+1/Libtiff.v4.0.10.x86_64-w64-mingw32.tar.gz"
 [[Libtiff]]
 arch = "armv7l"
-git-tree-sha1 = "79c1953d641986c5bb2c9af857ec83392405b56c"
+git-tree-sha1 = "b1d542e3a8139526c0dd964a29967516484d750d"
 libc = "glibc"
 os = "linux"
 
     [[Libtiff.download]]
-    sha256 = "5e3e61eb72cfda2985a95d76649fb53d95e343adb666ece3cd55d60a38037ef2"
-    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+0/Libtiff.v4.0.10.arm-linux-gnueabihf.tar.gz"
+    sha256 = "33967c33c7b28f91da302dc1e8a4b3e441e324c2acdb67fa8551d1c7609faeb6"
+    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+1/Libtiff.v4.0.10.armv7l-linux-gnueabihf.tar.gz"
 [[Libtiff]]
-arch = "x86_64"
-git-tree-sha1 = "3a9a32da6cdebc7b9a9eabc476de18d204d6714e"
-os = "freebsd"
+arch = "armv7l"
+git-tree-sha1 = "e26ccc7af563bdead465917389fddcbf151e12f6"
+libc = "musl"
+os = "linux"
 
     [[Libtiff.download]]
-    sha256 = "5525988ea07d9a81560c4b40f6f25f573a86a480493178dee64df91907a873b3"
-    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+0/Libtiff.v4.0.10.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "fdfae3cad8f603a2cd20b86473341d50002dba2de26d01eb32fb29bdccc4078d"
+    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+1/Libtiff.v4.0.10.armv7l-linux-musleabihf.tar.gz"
+[[Libtiff]]
+arch = "i686"
+git-tree-sha1 = "a386cb4c2690ac32a9d810314883fd915462dabe"
+libc = "glibc"
+os = "linux"
+
+    [[Libtiff.download]]
+    sha256 = "5427bde66a020458c92db7d17db2da9d09ce4092ddd528e400b4f3ce6f133154"
+    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+1/Libtiff.v4.0.10.i686-linux-gnu.tar.gz"
 [[Libtiff]]
 arch = "x86_64"
-git-tree-sha1 = "5a712ebd24da6d995816b192eb22a70bb3b8b00d"
+git-tree-sha1 = "6eaff1edf410716108e0d7304e525a3a5178cca7"
+libc = "glibc"
+os = "linux"
+
+    [[Libtiff.download]]
+    sha256 = "1dc5a0eb61942229b81c8db1a8804dd88a17b639b80bdd07e3bd5ae79102e3ac"
+    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+1/Libtiff.v4.0.10.x86_64-linux-gnu.tar.gz"
+[[Libtiff]]
+arch = "powerpc64le"
+git-tree-sha1 = "97e63bc9d71d67521cf7cb994c7a37ef21ce496f"
+libc = "glibc"
+os = "linux"
+
+    [[Libtiff.download]]
+    sha256 = "45ab6d5151dccdb8b6ea4841f3004db87420a13ca0d8b32172e2fbe9f2521044"
+    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+1/Libtiff.v4.0.10.powerpc64le-linux-gnu.tar.gz"
+[[Libtiff]]
+arch = "x86_64"
+git-tree-sha1 = "fc9ca9e78826c5a8d8a25369868aea0111d75824"
 os = "macos"
 
     [[Libtiff.download]]
-    sha256 = "80da4e3aefea4df17ad32e463057f04acb417093addd3e0e3bc0f8517aa600e1"
-    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+0/Libtiff.v4.0.10.x86_64-apple-darwin14.tar.gz"
+    sha256 = "433662a3c6241331ce63fc76ca06d20d3567f7cf28ab9ca6fb98e1fa9a19eb42"
+    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+1/Libtiff.v4.0.10.x86_64-apple-darwin14.tar.gz"
 [[Libtiff]]
 arch = "aarch64"
-git-tree-sha1 = "7960b2bddd053b8222585190a7eb253453f6eeb4"
-libc = "musl"
-os = "linux"
-
-    [[Libtiff.download]]
-    sha256 = "848b40f0b56906718851d83e882e30b65f6c569f16e3dcbc0a61840e20ae81b2"
-    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+0/Libtiff.v4.0.10.aarch64-linux-musl.tar.gz"
-[[Libtiff]]
-arch = "powerpc64le"
-git-tree-sha1 = "4a3508f70aeb6b2c330573e03c3a30397fe5a893"
+git-tree-sha1 = "68a25ec0da4b21dbae03eccec7316242b7a84676"
 libc = "glibc"
 os = "linux"
 
     [[Libtiff.download]]
-    sha256 = "c3322ec57708d6464396e3de2448baaea9f97a62453767b3056e49be3c76b4d4"
-    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+0/Libtiff.v4.0.10.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "77fe75ed5489527cb6fc2851b001c8063e34750f41a1762ffb91e91c1e36cde7"
+    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+1/Libtiff.v4.0.10.aarch64-linux-gnu.tar.gz"
 [[Libtiff]]
-arch = "i686"
-git-tree-sha1 = "923977d367181746ec9baa8a68eda68a08242674"
-os = "windows"
+arch = "x86_64"
+git-tree-sha1 = "4656283fd26fcb594f169b310814da20061eaebe"
+os = "freebsd"
 
     [[Libtiff.download]]
-    sha256 = "c9b39e0427fdf6a0141e44e83d65ffb2b5d8879ab6379263db999b0e95ebf7d7"
-    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+0/Libtiff.v4.0.10.i686-w64-mingw32.tar.gz"
+    sha256 = "b7d46b5c88a8865d577ca4a5e51dbe788f23a4dffc27cbb74e3071062eca7ded"
+    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+1/Libtiff.v4.0.10.x86_64-unknown-freebsd11.1.tar.gz"
 [[Libtiff]]
-arch = "i686"
-git-tree-sha1 = "511f000f22596293bda9033a1f69c1527834682c"
+arch = "x86_64"
+git-tree-sha1 = "ad5475799da1300f47c0a01a29181c4bac35cf7e"
 libc = "musl"
 os = "linux"
 
     [[Libtiff.download]]
-    sha256 = "e9705da70aff2873147050dad7aa752e99900b0ec68e541ac98d845d27690946"
-    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+0/Libtiff.v4.0.10.i686-linux-musl.tar.gz"
-[[Libtiff]]
-arch = "x86_64"
-git-tree-sha1 = "a42da7330f9e38cf60d965fbb89277212c2ee423"
-os = "windows"
-
-    [[Libtiff.download]]
-    sha256 = "0d00e870b948c24e90228a786280055bcab6e4bdee6b395ab0e0468c334406ce"
-    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+0/Libtiff.v4.0.10.x86_64-w64-mingw32.tar.gz"
-[[Libtiff]]
-arch = "x86_64"
-git-tree-sha1 = "5a3e65a27a989e074d28d519278a54e7914de444"
-libc = "musl"
-os = "linux"
-
-    [[Libtiff.download]]
-    sha256 = "b464bcad446c58fa69675637e0c3b252ba51446174578e522c004780b74d3040"
-    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+0/Libtiff.v4.0.10.x86_64-linux-musl.tar.gz"
-[[Libtiff]]
-arch = "i686"
-git-tree-sha1 = "55e0a7a54ed016b696e373a0cb671c84092b5d2d"
-libc = "glibc"
-os = "linux"
-
-    [[Libtiff.download]]
-    sha256 = "7c71d49cde160e5454cb540fae40116b0916b4fccbf0a5dc15fd0cf7bc5d80e6"
-    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+0/Libtiff.v4.0.10.i686-linux-gnu.tar.gz"
+    sha256 = "60aef1654ecc2de4a6ad17beb98b1dd2ced6903f3e773a64d20579ffa572bfdb"
+    url = "https://github.com/JuliaBinaryWrappers/Libtiff_jll.jl/releases/download/Libtiff-v4.0.10+1/Libtiff.v4.0.10.x86_64-linux-musl.tar.gz"
