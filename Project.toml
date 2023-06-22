@@ -1,13 +1,12 @@
 name = "Libtiff_jll"
 uuid = "89763e89-9b03-5906-acba-b20f662cd828"
-version = "4.5.1+0"
+version = "4.5.1+1"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 JpegTurbo_jll = "aacddb02-875f-59d6-b918-886e6ef4fbf8"
 LERC_jll = "88015f11-f218-50d7-93a8-a6af411a945d"
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
-libwebp_jll = "c5f90fcd-3b7e-5836-afba-fc50a0988cb2"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 XZ_jll = "ffd25f8a-64ca-5728-b0f7-c24cf3aae800"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
